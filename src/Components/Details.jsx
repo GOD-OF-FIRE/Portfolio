@@ -83,8 +83,10 @@ const Details = () => {
                   <div className="col-12">
                     <h3 className="email-contact">
                       <a
-                        href="mailto:kushagra357@gmail.com"
                         className="link-email"
+                        href="mailto:kushagra357@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         kushagra357@gmail.com
                       </a>
@@ -93,12 +95,14 @@ const Details = () => {
                 </div>
               </div>
               {/* Another contact option */}
-              <div className="container contact-information">
+              <div >
                 <div className="row icons-contact" align="center">
                   <div className="col-4">
                     <a
                       className="link-email"
                       href="https://www.linkedin.com/in/kushagra-gupta-5a92a812a/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fab fa-linkedin"></i>
                     </a>
@@ -107,6 +111,8 @@ const Details = () => {
                     <a
                       className="link-email"
                       href="https://www.instagram.com/kushagra._.99/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fab fa-instagram"></i>
                     </a>
@@ -115,6 +121,8 @@ const Details = () => {
                     <a
                       className="link-email"
                       href="https://github.com/GOD-OF-FIRE"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <i className="fab fa-github"></i>
                     </a>

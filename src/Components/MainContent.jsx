@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import profilePic from "../assets/PROFILE_PIC-removebg-preview.png"; // Import the image
 import memoji from "../assets/memoji.png";
 import memoji2 from "../assets/memoji2.png";
-import p1 from "../assets/p1.png"
+import p1 from "../assets/p1.png";
 import p2 from "../assets/p2.jpg";
 const MainContent = () => {
   return (
@@ -49,23 +49,22 @@ const MainContent = () => {
         </div>
 
         {/* <!--CSS--> */}
-        <div className="container position-relative d-none d-lg-block artist-move ">
-          <div className="row row-cols-auto ">
-            <div className="col-6 d-none d-sm-none d-md-block d-lg-block css"></div>
+        <div className="container position-relative d-none d-lg-block  ">
+          <div className="row row-cols-auto css">
+            <div className="col-6 d-none d-sm-none d-md-block d-lg-block"></div>
             <div className="col skills-bubble name-card">CSS 🎨</div>
           </div>
         </div>
         {/* <!-- JS --> */}
         <div className="container position-relative d-none d-lg-block artist-move">
-          <div className="row row-cols-auto">
-            <div className="col-6 d-none d-sm-none d-md-block d-lg-block"></div>
+          <div className="row row-cols-auto js">
+            <div className="col-6 d-none d-sm-none d-md-block d-lg-block "></div>
             <div className="col skills-bubble name-card">Java Script✒️</div>
           </div>
         </div>
 
         <div className="container position-relative d-none d-lg-block artist-move">
-          <div className="row row-cols-auto">
-            <div className="col-6 d-none d-sm-none d-md-block d-lg-block react"></div>
+          <div className="row row-cols-auto react">
             <div
               className="col skills-bubble name-card frame"
               style={{ marginTop: "-30%", height: "3.5em" }}
@@ -75,11 +74,10 @@ const MainContent = () => {
           </div>
         </div>
         <div className="container position-relative d-none d-lg-block artist-move">
-          <div className="row row-cols-auto">
-            <div className="col-6 d-none d-sm-none d-md-block d-lg-block next"></div>
+          <div className="row row-cols-auto next" style={{}}>
             <div
-              className="col skills-bubble name-card frame"
-              style={{ marginTop: "-30%", height: "3.5em" }}
+              className="col skills-bubble name-card frame next"
+              style={{ height: "3.5em" }}
             >
               NextJS📝
             </div>
@@ -305,10 +303,7 @@ const MainContent = () => {
             <div className="col-sm-10 d-flex justify-content-center mt-5"></div>
             {/* <!--1st project--> */}
             <div className="col-6 d-none d-lg-block d-xl-block">
-              <a
-                href="https://fire-player.netlify.app/"
-                target="_blank"
-              >
+              <a href="https://fire-player.netlify.app/" target="_blank">
                 <img className="project-one img-fluid" src={p1} />
               </a>
             </div>
@@ -322,10 +317,7 @@ const MainContent = () => {
             "
               align="center"
             >
-              <a
-                href="https://fire-player.netlify.app/"
-                target="_blank"
-              >
+              <a href="https://fire-player.netlify.app/" target="_blank">
                 <img
                   className="project-one-mobile img-fluid"
                   src={p1}

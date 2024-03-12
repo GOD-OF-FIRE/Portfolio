@@ -273,9 +273,9 @@ html {
     margin-top: 1rem !important;
   }
 
-  i.js {
+  /* i.js {
     margin-left: 2rem !important;
-  }
+  } */
 
   div.size-skill-mobile {
     font-size: 28px;
@@ -643,10 +643,10 @@ html {
     font-size: 40px !important;
     margin-top: 1rem !important;
   }
-
+/* 
   i.js {
     margin-left: -2rem !important;
-  }
+  } */
 
   div.size-skill-mobile {
     font-size: 28px;
@@ -999,9 +999,9 @@ html {
     margin-top: 1rem !important;
   }
 
-  i.js {
+  /* i.js {
     margin-left: -2rem !important;
-  }
+  } */
 
   div.size-skill-mobile {
     font-size: 28px;
@@ -1352,9 +1352,9 @@ html {
     margin-top: 1rem !important;
   }
 
-  i.js {
+  /* i.js {
     margin-left: -2rem !important;
-  }
+  } */
 
   div.size-skill-mobile {
     font-size: 28px;
@@ -1705,9 +1705,9 @@ html {
     margin-top: 1rem !important;
   }
 
-  i.js {
+  /* i.js {
     margin-left: 2rem !important;
-  }
+  } */
 
   div.size-skill-mobile {
     font-size: 28px;
@@ -2076,9 +2076,9 @@ html {
     margin-top: 1rem !important;
   }
 
-  i.js {
+  /* i.js {
     margin-left: -2rem !important;
-  }
+  } */
 
   div.size-skill-mobile {
     font-size: 28px;
@@ -2562,9 +2562,9 @@ html {
     margin-top: 1rem !important;
   }
 
-  i.js {
+  /* i.js {
     margin-left: -2rem !important;
-  }
+  } */
 
   div.size-skill-mobile {
     font-size: 28px;
@@ -2916,9 +2916,9 @@ html {
     margin-top: 1rem !important;
   }
 
-  i.js {
+  /* i.js {
     margin-left: -2rem !important;
-  }
+  } */
 
   div.size-skill-mobile {
     font-size: 28px;
@@ -3268,9 +3268,9 @@ html {
     margin-top: 1rem !important;
   }
 
-  i.js {
+  /* i.js {
     margin-left: -2rem !important;
-  }
+  } */
 
   div.size-skill-mobile {
     font-size: 28px;
@@ -4504,14 +4504,15 @@ div.exit {
   margin: -1.5rem 0 0 0;
 }
 
-.css {
-  margin-left: 10%;
-}
-.react {
+/* .css {
   margin-left: 30%;
+} */
+.react {
+  margin-left: -5rem;
 }
 .next{
-  margin-left: 20%;
+  margin-left: -5rem;
+  margin-top: 5rem;
 
 }
 body::-webkit-scrollbar {
